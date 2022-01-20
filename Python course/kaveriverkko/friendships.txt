@@ -1,0 +1,44 @@
+#####################################################################
+# Since a friendship is defined to be a two way relationship, 
+# the following single line in the input file:
+#
+# A;B;C
+#
+# means that A has two friends B and C.  Therefore this line
+# will automatically add all the following relationships in the
+# data structure which is used to store the friendships
+#
+# A-B
+# B-A
+# A-C
+# C-A
+#
+#####################################################################
+Helen;Greta;Florian;Irina
+Irina;Helen;Greta;Florian;Erin;James
+Greta;Helen;Irina;Florian
+James;Irina;Florian;Anna;Erin
+Brutus;Celia;Anna;Florian
+#####################################################################
+# In the following three lines Anna's friends are split in multiple
+# lines just to show that it is possible.
+#####################################################################
+Anna;James;Florian
+Anna;Brutus
+Anna;Celia;Erin
+Erin;James;Irina;Anna;David
+Celia;David;Anna;Brutus
+David;Erin;Celia
+Kira;Mia;Lucius
+Lucius;Kira;Nina;Mia
+Mia;Kira;Nina;Lucius
+Nina;Lucius;Mia
+#####################################################################
+# The following lines have no effect since they contain redundant
+# infomation which has already been expressed before.  But these
+# lines are not errorneous, they just don't add any new information
+# into the friendship network.
+#####################################################################
+Anna;Florian;Celia
+Nina;Lucius;Mia
+Mia;Kira
