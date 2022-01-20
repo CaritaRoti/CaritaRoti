@@ -2,4 +2,4 @@
 - 👀 I’m interested in back-end development and learning new programming languages
 - 📫 Reach me via 
       LinkedIn: https://www.linkedin.com/in/carita-roti 
-      email: carita.roti@gmail.com
+      or email: carita.roti@gmail.com
